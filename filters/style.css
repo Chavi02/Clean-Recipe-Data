@@ -1,0 +1,298 @@
+.FILTERS {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.FILTERS .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 258px;
+  height: 479px;
+  position: relative;
+}
+
+.FILTERS .overlap-group {
+  position: absolute;
+  width: 439px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  background-color: #c37b89;
+}
+
+.FILTERS .text-wrapper {
+  position: absolute;
+  width: 107px;
+  top: 9px;
+  left: 75px;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.FILTERS .sugar-free {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 84px;
+  left: 27px;
+}
+
+.FILTERS .radio-wrapper {
+  display: flex;
+  width: 181px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.FILTERS .controller {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.FILTERS .thumb {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--gray-700);
+}
+
+.FILTERS .icon {
+  position: relative;
+  width: 2px;
+  height: 2px;
+  opacity: 0;
+}
+
+.FILTERS .color {
+  top: -246px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .label {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-1-normal-font-family);
+  font-weight: var(--body-1-normal-font-weight);
+  color: var(--gray-700);
+  font-size: var(--body-1-normal-font-size);
+  letter-spacing: var(--body-1-normal-letter-spacing);
+  line-height: var(--body-1-normal-line-height);
+  font-style: var(--body-1-normal-font-style);
+}
+
+.FILTERS .gluten-free {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 124px;
+  left: 27px;
+}
+
+.FILTERS .img {
+  top: -286px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .vegetarian {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 164px;
+  left: 27px;
+}
+
+.FILTERS .color-2 {
+  top: -326px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .non-vegetarian {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 204px;
+  left: 27px;
+}
+
+.FILTERS .color-3 {
+  top: -366px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .satvik {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 244px;
+  left: 27px;
+}
+
+.FILTERS .color-4 {
+  top: -406px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .overlap {
+  position: absolute;
+  width: 174px;
+  height: 104px;
+  top: 364px;
+  left: 31px;
+}
+
+.FILTERS .non-vegetarian-high {
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  overflow: hidden;
+}
+
+.FILTERS .radio-wrapper-2 {
+  margin-left: -8.5px;
+  margin-right: -8.5px;
+  display: flex;
+  width: 181px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.FILTERS .color-5 {
+  top: -578px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .vegetarian-high {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 47px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.FILTERS .radio-wrapper-3 {
+  margin-top: -8.5px;
+  margin-left: -3.5px;
+  margin-right: -3.5px;
+  display: flex;
+  width: 181px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.FILTERS .color-6 {
+  top: -530px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .vegan {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 324px;
+  left: 27px;
+}
+
+.FILTERS .color-7 {
+  top: -486px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}
+
+.FILTERS .eggs {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 284px;
+  left: 27px;
+}
+
+.FILTERS .color-8 {
+  top: -446px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -3230px;
+}

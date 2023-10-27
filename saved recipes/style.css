@@ -1,0 +1,33 @@
+.saved-recipes {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.saved-recipes .div {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.saved-recipes .frame {
+  height: 960px;
+  top: 120px;
+  position: absolute;
+  width: 1920px;
+  left: 0;
+}
+
+.saved-recipes .frame-2 {
+  height: 120px;
+  top: 0;
+  background-color: #c37b89;
+  position: absolute;
+  width: 1920px;
+  left: 0;
+}
