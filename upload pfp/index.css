@@ -1,0 +1,53 @@
+.frame-child {
+  	position: absolute;
+  	top: 39px;
+  	left: 104px;
+  	border-radius: 50%;
+  	background-color: var(--color-gainsboro);
+  	width: 252px;
+  	height: 252px;
+}
+.frame-item {
+  	position: absolute;
+  	top: 341px;
+  	left: 46px;
+  	background-color: var(--color-gainsboro);
+  	width: 368px;
+  	height: 34px;
+}
+.upload-new-picture {
+  	position: absolute;
+  	top: 338px;
+  	left: 116px;
+  	display: inline-block;
+  	width: 250px;
+  	height: 34px;
+}
+.frame-inner {
+  	position: absolute;
+  	top: 405px;
+  	left: 46px;
+  	background-color: var(--color-gainsboro);
+  	width: 368px;
+  	height: 34px;
+}
+.save-picture {
+  	position: absolute;
+  	top: 402px;
+  	left: 153px;
+  	display: inline-block;
+  	width: 154px;
+  	height: 34px;
+}
+.ellipse-parent {
+  	position: relative;
+  	background-color: #fff;
+  	width: 100%;
+  	height: 487px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: var(--font-size-9xl);
+  	color: var(--color-black);
+  	font-family: var(--font-dm-serif-display);
+}
+
